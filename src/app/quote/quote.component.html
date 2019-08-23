@@ -1,0 +1,20 @@
+<!-- 
+<div>
+    <ul>
+      <li *ngFor='let x of claudine'>
+            {{x.quote}}
+          
+            
+      </li>
+    </ul>
+  <!</div> -->
+  <h1>Quotes</h1>
+<hr>
+<ul>
+  <div *ngFor='let x of claudine;let i = index'>
+    <li>{{x.quote}}</li>
+    <button (click)='Details(i)'> Details</button>
+    <app-quote-details *ngIf='x.showDescription' [claudine]='x'></app-quote-details>
+  </div>
+</ul>
+<!-- <p *ngIf='claudine.length > 5'></p>  -->

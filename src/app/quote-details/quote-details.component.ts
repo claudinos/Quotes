@@ -7,6 +7,7 @@ import{Quote} from '../quote'
 })
 export class QuoteDetailsComponent implements OnInit {
   @Input() claudine: Quote;
+  
   constructor() { }
 
   ngOnInit() {

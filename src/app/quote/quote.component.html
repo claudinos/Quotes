@@ -8,13 +8,16 @@
       </li>
     </ul>
   <!</div> -->
-  <h1>Quotes</h1>
+<h1>Quotes</h1>
 <hr>
 <ul>
-  <div *ngFor='let x of claudine;let i = index'>
-    <li>{{x.quote}}</li>
+  <div *ngFor='let claudine of claudine;let i = index'>
+    <li>{{claudine.quote}}</li>
     <button (click)='Details(i)'> Details</button>
-    <app-quote-details *ngIf='x.showDescription' [claudine]='x'></app-quote-details>
+    <!-- <app-quote-details *ngIf='claudine.showDescription' [umuhire]='claudine'></app-quote-details> -->
+    <div *ngIf='claudine.showDescription'>
+       <app-quote-details [umuhire]='claudine' (isComplete) = 'claudineDelete($event,i)'></app-quote-details> 
+       <!-- <app-quote-form (addQuote)="addnewQuote($event)"></app-quote-form> - -->
+    </div>
   </div>
 </ul>
-<!-- <p *ngIf='claudine.length > 5'></p>  -->

@@ -19,6 +19,21 @@ export class QuoteComponent implements OnInit {
   Details(index){
     this.claudine[index].showDescription = !this.claudine[index].showDescription;
   }
+  claudineDelete(isComplete, index){
+    if (isComplete) {
+      let toDelete = confirm(`Are you sure you want to delete ${this.claudine[index].quote}?`)
+
+      if (toDelete){
+        this.claudine.splice(index,1)
+      }
+    }
+  }
+  // addNewQuotel(claudine){
+  //   let goalLength = this.claudine.length;
+  //   claudine.id = quote.Length+1;
+  //   claudine.completeDate = new Date(claudine.completeDate)
+  //   this.claudine.push(claudine)
+  // }
   constructor() { }
 
   ngOnInit() {

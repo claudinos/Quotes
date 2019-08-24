@@ -1,33 +1,34 @@
 <div class="container-fluid">
-  <h2 class="text-center">Create a new QUOTE</h2>
+  <h2 class="text-center">Create a new Quote</h2>
   <hr>
   <form >
         <div class="form-group">
+            
 
                 <label for="description">Author</label>
                
-                <input type="text" class="form-control" id="author" [(ngModel)]="newQuote.author" name="author" #name='ngModel' required>
-            </div>
-      <div class="form-group">
+                <input type="text" class="form-control" id="author" [(ngModel)]="newQuote.author" name="author" #name='ngModel' required style="width:400px;">
+        </div>
+        <div class="form-group">
 
           <label for="name">Quote</label>
-          <textarea class="form-control" id="quote" rows="4" [(ngModel)]="newQuote.description" name="description" #description="ngModel" required></textarea>
+          <textarea class="form-control" id="quote" rows="4" [(ngModel)]="newQuote.description" name="description" #description="ngModel" required style="width:400px;"></textarea>
          
          
-      </div>
+        </div>
       
-      <div class="form-group">
+        <div class="form-group">
 
           <label for="complete">Publisher</label>
-          <input type="text" class="form-control" id="publisher" [(ngModel)]="newQuote.name" name="name" #name='ngModel' required>
+          <input type="text" class="form-control" id="publisher" [(ngModel)]="newQuote.name" name="name" #name='ngModel' required style="width:400px;">
          
       </div>
       <div class="form-group">
 
-        <label for="complete">Completion</label>
-        <input type='date' id="complete" [(ngModel)]="newQuote.completeDate" name="completeDate" #completeDate="ngModel" required>
+        <label for="complete">Published date</label>
+        <input type='date' id="complete" [(ngModel)]="newQuote.completeDate" name="completeDate" #completeDate="ngModel" required style="width:300px">
         
-    </div>
+        </div>
       <button type="submit" class="btn btn-success">Add Quote</button>
   </form>
 </div>

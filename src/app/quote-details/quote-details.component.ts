@@ -11,6 +11,8 @@ export class QuoteDetailsComponent implements OnInit {
   claudineDelete(complete:boolean){
     this.isComplete.emit(complete);
   }
+  // votequote= 0;
+  // voteshow = true;
   constructor() { }
 
   ngOnInit() {

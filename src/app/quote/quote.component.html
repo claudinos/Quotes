@@ -1,23 +1,14 @@
-<!-- 
-<div>
-    <ul>
-      <li *ngFor='let x of claudine'>
-            {{x.quote}}
-          
-            
-      </li>
-    </ul>
-  <!</div> -->
+
 <h1>Quotes</h1>
 <hr>
 <ul>
-  <div *ngFor='let claudine of claudine;let i = index'>
-    <li>{{claudine.quote}}</li>
+  <div *ngFor='let x of claudine;let i = index'>
+    <li>{{x.quote}}</li>
+    <p>{{x.Author}}</p>
     <button (click)='Details(i)'> Details</button>
-    <!-- <app-quote-details *ngIf='claudine.showDescription' [umuhire]='claudine'></app-quote-details> -->
-    <div *ngIf='claudine.showDescription'>
-       <app-quote-details [umuhire]='claudine' (isComplete) = 'claudineDelete($event,i)'></app-quote-details> 
-       <!-- <app-quote-form (addQuote)="addnewQuote($event)"></app-quote-form> - -->
+    <div *ngIf='x.showDescription'>
+       <app-quote-details [umuhire]='x' (isComplete) = 'claudineDelete($event,i)'></app-quote-details> 
+       <app-quote-form (addQuote)="addnewQuote($event)"></app-quote-form> -
     </div>
   </div>
 </ul>

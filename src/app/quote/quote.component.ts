@@ -28,12 +28,12 @@ export class QuoteComponent implements OnInit {
       }
     }
   }
-  // addNewQuotel(claudine){
-  //   let goalLength = this.claudine.length;
-  //   claudine.id = quote.Length+1;
-  //   claudine.completeDate = new Date(claudine.completeDate)
-  //   this.claudine.push(claudine)
-  // }
+  addnewQuote(x){
+    let xLength = this.claudine.length;
+    x.id = xLength+1;
+    x.completeDate = new Date(x.completeDate)
+    this.claudine.push(x)
+  }
   constructor() { }
 
   ngOnInit() {

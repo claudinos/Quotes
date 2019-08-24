@@ -1,7 +1,9 @@
 
 <p>{{umuhire.Name}}</p>
 <p>{{umuhire.Author}}</p>
-<!-- <p>{{claudine.completeDate|dateCount}} days</p> -->
+<p>Published on {{umuhire.completeDate|date|uppercase}}</p>
+
+<p>{{umuhire.completeDate|dateCount}} days</p>
 <button (click)= 'claudineDelete(true)'>Delete Goal</button>
 
 

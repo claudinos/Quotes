@@ -29,7 +29,7 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ### by **claudine umuhire**
 ## DESCRIPTION
 ### Quotes
-Webside app that helps you to share your lovely quotes and vote for a quote and you could also see in detail the name of a publisher of that quote
+Webside app that helps you to share your lovely quotes and Also a user has an option upvoting and downvoting for a quote based on their preference
 ## SETUP INSTALLATION REQUIRED
     *UBUNTU
     *VISIO CODE
@@ -39,11 +39,12 @@ Webside app that helps you to share your lovely quotes and vote for a quote and 
     *node.js
 
  ## TECHNOLOGY USED 
-    * HTML 
+    *HTML 
     *CSS 
     *JAVA SCRIPT
     *ANGULAR
     *BOOTSTRAP
+    *NETWORK connection
 
  ## BDD
 
@@ -63,7 +64,7 @@ Webside app that helps you to share your lovely quotes and vote for a quote and 
  * Then click submit
 
  **output**
- * According to the input you have inserted* the output must be the Quote and Author displayed and in the detail of quote you will see the publisher and the date you publish your quote and the button to vot or to delete a quote
+ * According to the input you have inserted* the output must be the Quote and Author inserted and in the detail of quote you will see the publisher name  and the date you publish your quote and the upvoting and downvoting button to like or unlike quote and delete button to delete a quote if you want
 
  ## MY PROJECT LINK
 https://claudinos.github.io/Quotes/"

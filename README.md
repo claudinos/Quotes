@@ -65,4 +65,9 @@ Webside app that helps you to share your lovely quotes and vote for a quote and 
  **output**
  * According to the input you have inserted* the output must be the Quote and Author displayed and in the detail of quote you will see the publisher and the date you publish your quote and the button to vot or to delete a quote
 
+ ## MY PROJECT LINK
  
+
+   
+ ## SUPPORT AND CONTACT
+ Contact me :claudinos1990@gmail.com

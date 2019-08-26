@@ -71,3 +71,6 @@ https://claudinos.github.io/Quotes/"
 
  ## SUPPORT AND CONTACT
  Contact me :claudinos1990@gmail.com
+
+ ### License
+Licenced by MIT copyright @ 2019 * claudine umuhire*

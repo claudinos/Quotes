@@ -45,4 +45,20 @@ Webside app that helps you to share your lovely quotes and vote for a quote and 
     *ANGULAR
     *BOOTSTRAP
 
- 
+ ## BDD
+
+ **Input Author**
+ * Author must be a string 
+
+ **Input quote**
+
+ * quote must be a string 
+
+ **Input Publisher**
+ * publisher must be a string 
+
+ **Input CompleteDate**
+ * CompleteDate must be a Date 
+
+ * Then click submit
+

@@ -30,3 +30,12 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## DESCRIPTION
 ### Quotes
 Webside app that helps you to share your lovely quotes and vote for a quote and you could also see in detail the name of a publisher of that quote
+## SETUP INSTALLATION REQUIRED
+    *UBUNTU
+    *VISIO CODE
+    *GOOGLE CHROME
+    *Git
+    *Angular
+    *node.js
+
+ 

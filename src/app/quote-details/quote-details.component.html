@@ -2,10 +2,12 @@
 <p>{{umuhire.Publisher}}</p>
 <p>{{umuhire.completeDate|dateCount}} days</p>
 <p>Published on {{umuhire.completeDate|dateCount}}</p>
-<button type="text" class="btn btn-primary" (click)="upshow()">upvote</button>
+
 <br><br>
-<p>{{votequote}}</p>
-<button type="text" class="btn btn-primary" (click)="downshow()">downvote</button><br><br>
-<p>{{downvote}}</p>
+<i class="up"></i>{{votequote}}<button type="text" class="btn btn-primary" (click)="upshow()">upvote</button>
+<!-- <p>{{votequote}}</p> -->
+<i class="down"></i>{{downvote}}<button type="text" class="btn btn-primary" (click)="downshow()">downvote</button><br><br>
+<!-- <button type="text" class="btn btn-primary" (click)="downshow()">downvote</button><br><br> -->
+<!-- <p>{{downvote}}</p> -->
 <button (click)= 'claudineDelete(true)'>Delete Quote</button>
 

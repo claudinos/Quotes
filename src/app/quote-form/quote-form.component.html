@@ -1,25 +1,26 @@
-<div class="container-fluid">
-  <h2>Create a new Quote</h2>
+<div class="container">
+  
   <hr>
    <form (ngSubmit)='submitQuote()' #quoteForm='ngForm'>
+      <h2>Create a new Quote</h2>
         <div class="form-group">
           <label for="description">Author</label>
-          <input type="text" class="form-control" id="author" [(ngModel)]="newQuote.Author" name="author" #author='ngModel' required style="width:400px;">
+          <input type="text" class="form-control" id="author" [(ngModel)]="newQuote.Author" name="author" #author='ngModel' required style="width:500px;">
         </div>
 
         <div class="form-group">
           <label for="name">Quote</label>
-          <textarea class="form-control" id="quote" rows="4" [(ngModel)]="newQuote.quote" name="quote" #quote="ngModel" required style="width:400px;"></textarea> 
+          <textarea class="form-control" id="quote" rows="4" [(ngModel)]="newQuote.quote" name="quote" #quote="ngModel" required style="width:500px;"></textarea> 
         </div>
       
         <div class="form-group">
           <label for="complete">Publisher</label>
-          <input type="text" class="form-control" id="publisher" [(ngModel)]="newQuote.Publisher" name="publisher" #publisher='ngModel' required style="width:400px;"> 
+          <input type="text" class="form-control" id="publisher" [(ngModel)]="newQuote.Publisher" name="publisher" #publisher='ngModel' required style="width:500px;"> 
         </div>
 
         <div class="form-group">
         <label for="complete">Published date</label>
-        <input type='date' id="complete" [(ngModel)]="newQuote.completeDate" name="completeDate" #complete="ngModel" required style="width:300px">      
+        <input type='date' id="complete" [(ngModel)]="newQuote.completeDate" name="completeDate" #complete="ngModel" required style="width:400px">      
         </div>
 
         <button type="submit" class="btn btn-success">Submit</button>

@@ -38,4 +38,11 @@ Webside app that helps you to share your lovely quotes and vote for a quote and 
     *Angular
     *node.js
 
+ ## TECHNOLOGY USED 
+    * HTML 
+    *CSS 
+    *JAVA SCRIPT
+    *ANGULAR
+    *BOOTSTRAP
+
  

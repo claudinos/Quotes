@@ -1,5 +1,6 @@
 .hi{
-    background-image: url("src/assets/hello.jpg");
+    background-image: url("src/assets/image1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    font-size: 20px;
 }
